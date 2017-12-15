@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://E:\Study\GivDApps\GivDapps-master Android 2\GivDapps-master Android\GivDapps.iml" filepath="E:\Study\GivDApps\GivDapps-master Android 2\GivDapps-master Android\GivDapps.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GivDapps-master Android.iml" filepath="$PROJECT_DIR$/GivDapps-master Android.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://E:\Study\GivDApps\GivDapps-master Android 2\GivDapps-master Android\app\app.iml" filepath="E:\Study\GivDApps\GivDapps-master Android 2\GivDapps-master Android\app\app.iml" />
+    </modules>
+  </component>
+</project>

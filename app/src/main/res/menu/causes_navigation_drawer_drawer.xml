@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_campaign"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Campaign" />
+        <item
+            android:id="@+id/nav_favorites"
+            android:icon="@drawable/ic_star"
+            android:title="Favorites" />
+        <item
+            android:id="@+id/nav_calendar"
+            android:icon="@drawable/ic_calender"
+            android:title="Calendar" />
+        <item
+            android:id="@+id/nav_donations"
+            android:icon="@drawable/ic_coin"
+            android:title="Donations" />
+        <item
+            android:id="@+id/nav_history"
+            android:icon="@drawable/ic_clock"
+            android:title="History" />
+        <item
+            android:id="@+id/nav_invite_your_friends"
+            android:icon="@drawable/ic_f"
+            android:title="Invite your friends" />
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/ic_settings"
+            android:title="Settings" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_logout"
+            android:title="Logout" />
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/ic_about"
+            android:title="About" />
+    </group>
+
+
+
+    <!--<item android:title="Communicate">-->
+        <!--<menu>-->
+            <!--<item-->
+                <!--android:id="@+id/nav_share"-->
+                <!--android:icon="@drawable/ic_menu_share"-->
+                <!--android:title="Share" />-->
+            <!--<item-->
+                <!--android:id="@+id/nav_send"-->
+                <!--android:icon="@drawable/ic_menu_send"-->
+                <!--android:title="Settings" />-->
+        <!--</menu>-->
+    <!--</item>-->
+
+</menu>

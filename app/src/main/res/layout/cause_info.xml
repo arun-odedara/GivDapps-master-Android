@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.givdapps.androidapp.CauseInfo">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:id="@+id/donationsbanner"
+        android:src="@drawable/templatepic2"
+        android:scaleType="centerCrop"/>
+    <Button
+        android:id="@+id/exit_button"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:scaleType="fitXY"
+        android:text="EXIT"
+        android:background="@color/orange"
+        android:onClick="exit_button"/>
+    <ImageButton
+        android:id="@+id/donate_button"
+        android:layout_width="75dp"
+        android:layout_height="50dp"
+        android:scaleType="fitXY"
+        android:contentDescription="Donate"
+        android:background="@color/orange"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="15dp"
+        android:layout_marginTop="175dp"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="230dp"
+        android:orientation="horizontal"
+        android:layout_marginLeft="100dp">
+
+        <Button
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/ic_star"/>
+        <TextView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:text="5"/>
+        <Button
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/ic_chat"/>
+        <TextView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:text="45"/>
+        <Button
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/ic_donation_page_info"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="300dp"
+        android:orientation="horizontal"
+        >
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/ic_heart"/>
+        <TextView
+            android:layout_width="160dp"
+            android:layout_height="match_parent"
+            android:text="$4000 Total Goal"
+            android:textSize="18sp"
+            />
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/ic_calender"/>
+        <TextView
+            android:layout_width="160dp"
+            android:layout_height="match_parent"
+            android:text="17 Days Left"
+            android:textSize="18sp"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="360dp"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/ic_coin"
+            />
+        <TextView
+            android:layout_width="160dp"
+            android:layout_height="match_parent"
+            android:text="$1000 Remaining"
+            android:textSize="18sp"
+            />
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/profile_picture"
+            />
+        <TextView
+            android:layout_width="160dp"
+            android:layout_height="match_parent"
+            android:text="92 Doners"
+            android:textSize="18sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="420dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@color/navy"
+            android:text="sample text sample text
+            sample text sample text sample text sample text sample text sample text
+             sample text sample text sample text sample text sample text"/>
+
+    </LinearLayout>
+
+
+</RelativeLayout>
+
